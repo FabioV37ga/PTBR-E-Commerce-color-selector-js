@@ -1,0 +1,75 @@
+.menu {
+    margin-left: calc((100% - 200px)/2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    width: 200px;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+}
+
+figure img {
+    width: 200px
+}
+.comprar{
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.display__preco{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+.send__button{
+    border: 0;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+.send__button:hover{
+    background: #dadada;
+    transition: .2s;
+}
+
+.botao {
+    padding: 15px;
+    border-radius: 100%;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+}
+
+.__selected {
+    border: 2px solid black !important;
+}
+
+#button__red {
+    background: rgb(248, 70, 70);
+}
+
+#button__blue {
+    background: blue;
+}
+
+#button__yellow {
+    background: gold;
+}
+
+.check1 {
+    border-radius: 100%;
+}
