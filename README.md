@@ -1,5 +1,5 @@
 # PTBR-E-Commerce-color-selector-js
-(EN) Treat a product's color menu (PT-BR) Trata um menu de cores para um produto.
+(EN) Treats a product's color menu (PT-BR) Trata um menu de cores para um produto.
 
 → https://prnt.sc/ugqnrf
 → https://prnt.sc/ugqofc
