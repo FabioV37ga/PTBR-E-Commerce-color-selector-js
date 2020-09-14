@@ -1,3 +1,13 @@
+.fade-out {
+    opacity: 0%;
+    transition: opacity 0.3s
+}
+
+.fade-in {
+    opacity: 100% !important;
+    transition: opacity 0.3s
+}
+
 .produto {
     margin-left: calc((100% - 300px)/2);
     display: flex;
@@ -9,16 +19,17 @@
 }
 
 .display {
+    opacity: 0%;
     justify-content: center;
     margin-top: 1rem;
     text-transform: uppercase;
 }
 
-figure {
+.produto__figure {
     justify-content: center;
 }
 
-figure img {
+.produto__figure img {
     width: 200px
 }
 
@@ -26,6 +37,16 @@ figure img {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+}
+
+.sucesso {
+    justify-content: center;
+    margin-top: 90px;
+    opacity: 0%;
+}
+
+.sucesso__imagem {
+    width: 230px
 }
 
 .display__preco {
