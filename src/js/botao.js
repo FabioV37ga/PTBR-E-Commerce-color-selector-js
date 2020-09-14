@@ -10,9 +10,10 @@
         button.addEventListener('click', function () {
 
             const displayColor = document.querySelector('.display__color');
-            const buttons = document.querySelectorAll('.botao');
             const camiseta = document.querySelector('#camiseta')
-
+            
+            const buttons = document.querySelectorAll('.botao');
+            
             for (let i = 0; i < buttons.length; i++) {
 
                 const button = buttons[i]
